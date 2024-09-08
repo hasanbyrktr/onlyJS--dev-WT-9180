@@ -1,0 +1,27 @@
+/* style.css */
+body {
+    background-color: rgb(139, 0, 139);
+}
+
+h1 {
+    color: lightseagreen;
+}
+p {
+    color: #FF8C00;
+}
+h2 {
+    color: rgba(180, 150,200 ,0.5);
+}
+ table {
+            border-collapse: collapse; /* Hücre kenarlarını birleştirir, çift sınırı kaldırır */
+            width: 45%;
+        }
+
+        table, th, td {
+            border: 1px solid black; /* Tablonun ve hücrelerin kenar çizgileri */
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
